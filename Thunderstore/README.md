@@ -7,7 +7,10 @@
 
 ---
 
-![](https://github.com/AzumattDev/MouseTweaks/blob/master/Thunderstore/example.gif)
+![](https://github.com/AzumattDev/MouseTweaks/blob/master/Thunderstore/example.gif?raw=true)
+
+[Gif too blurry? Click Here](https://i.imgur.com/mehXT3l.mp4)
+
 
 ## Features
 
