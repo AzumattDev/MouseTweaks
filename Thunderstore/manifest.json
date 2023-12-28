@@ -1,0 +1,9 @@
+{
+  "name": "MouseTweaks",
+  "version_number": "1.0.0",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "Similar to Mouse Tweaks from Minecraft, this mod allows you to move items, split stacks, and more with your mouse and keyboard.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202"
+  ]
+}
