@@ -8,7 +8,10 @@ static class InventoryGridGetHoveredElementPatch
 {
     static void Postfix(InventoryGrid __instance, ref InventoryGrid.Element __result)
     {
-        if ((ZInput.GetKey(KeyCode.LeftControl) || ZInput.GetKey(KeyCode.RightControl)) && __result != null)
+        // If either of my move and drop keys are empty, return
+        if (MouseTweaksPlugin.MoveNDrop.Value.MainKey == KeyCode.None && MouseTweaksPlugin.MoveNDrop2.Value.MainKey == KeyCode.None)
+            return;
+        if ((MouseTweaksPlugin.MoveNDrop.Value.IsKeyHeld() || MouseTweaksPlugin.MoveNDrop2.Value.IsKeyHeld()) && __result != null)
         {
             // If my left click is down
             if (Input.GetKey(KeyCode.Mouse0))
